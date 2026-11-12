@@ -2,7 +2,7 @@ class Dcmd < Formula
   desc "Per-folder command menu that puts the chosen command on your zsh prompt"
   homepage "https://github.com/karpikorop/zsh-dcmd-go"
   url "https://github.com/karpikorop/zsh-dcmd-go/archive/refs/tags/v2.0.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "99cf7f15a3b7f12a3d1f3abf5529fb267edf732b012d068bb2f9a9b09485b770"
   license "GPL-3.0-only"
 
   depends_on "go" => :build
