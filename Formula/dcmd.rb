@@ -8,7 +8,7 @@ class Dcmd < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args,"./cmd/dcmd"
+    system "go", "build", *std_go_args, "./cmd/dcmd"
   end
 
   def caveats
